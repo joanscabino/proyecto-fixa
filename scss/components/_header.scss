@@ -1,0 +1,68 @@
+/*===== header=====****/
+header {
+    background-color: #363636 ;
+    color:#142026;
+    
+
+    padding: 1rem;
+& h1{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+& li{
+    text-align: center;
+    padding-bottom: 0,5rem;
+}
+& form {
+    display: none;
+}
+}
+@media(min-width:768px)
+
+
+{
+    header{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 60px;
+        
+    
+    & nav{
+        grid-column: span 2;
+    }
+
+    .titulo-header{
+        display: flex;
+        align-items: center;
+    }
+
+     & ul{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    & form{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 0.5rem;
+        
+    }
+    }}
+
+    @media (min-width:1200px){
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;}
+            
+    }
+
+    @media(min-width:1200px){
+        .contenedor{ 
+            max-width: 1300px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }

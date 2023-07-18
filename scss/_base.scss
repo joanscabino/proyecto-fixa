@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #5d7287;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+ul,
+li {
+    list-style: none;
+    color: inherit;
+}
+
+
+h1 {
+    font-family: sans-serif;
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+h3 {
+    font-family: sans-serif;
+}
+
+p{
+    font-family: sans-serif;
+}
+
+li{
+    font-family: sans-serif;
+}
+/*Contenedor como el de ML
+@media(min-width:1200px){
+    .contenedor{ 
+        max-width: 1300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+*/
