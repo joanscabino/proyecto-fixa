@@ -1,5 +1,5 @@
 footer{
-    background-color: #363636;
+    background-color:$color-primario;
     color: aliceblue;
     padding: 1rem;
     border: 2px solid white;
@@ -33,12 +33,11 @@ footer{
     footer {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: centr;
         border: solid black;    
         max-width: 1300px;
         margin-left: auto;
         margin-right: auto;
-        
-     }
-        
+        }
+    
 }

@@ -1,10 +1,17 @@
+/*colores del sitio*/
+
+$color-primario:#03484c;
+$color-secundario:#f7f8fc;
+$color-text:grey;
+$color-title:black;
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    background-color: #5d7287;
+    background-color: $color-secundario;
 }
 a{
     text-decoration: none;
@@ -38,6 +45,8 @@ p{
 li{
     font-family: sans-serif;
 }
+
+
 /*Contenedor como el de ML
 @media(min-width:1200px){
     .contenedor{ 

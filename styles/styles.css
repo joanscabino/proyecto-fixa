@@ -1,3 +1,4 @@
+/*colores del sitio*/
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +6,7 @@
 }
 
 body {
-  background-color: #5d7287;
+  background-color: #f7f8fc;
 }
 
 a {
@@ -49,7 +50,7 @@ li {
 }
 */
 footer {
-  background-color: #363636;
+  background-color: #03484c;
   color: aliceblue;
   padding: 1rem;
   border: 2px solid white;
@@ -79,7 +80,7 @@ footer map {
   footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: centr;
     border: solid black;
     max-width: 1300px;
     margin-left: auto;
@@ -88,7 +89,7 @@ footer map {
 }
 /*===== header=====****/
 header {
-  background-color: #363636;
+  background-color: #03484c;
   color: #142026;
   padding: 1rem;
 }
@@ -142,6 +143,125 @@ header form {
     margin-left: auto;
     margin-right: auto;
   }
+}
+section.tarjeta {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+section.tarjeta .tarjeta_img {
+  align-items: stretch;
+  max-width: 100%;
+  max-height: 75%;
+  /*max width ancho maximo
+  min height ancho minimo*/
+}
+
+section a {
+  background-color: blanchedalmond;
+  color: black;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  max-width: 135px;
+  max-height: 25px;
+  top: -35px;
+}
+
+/*===main===*/
+main {
+  background-color: whitesmoke;
+  color: #363636;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+main h2 {
+  color: rgb(18, 18, 83);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main p {
+  display: flex;
+  align-items: center;
+}
+main form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;    
+}
+
+.tarjeta img {
+    align-items: stretch;
+    max-width: 100%;
+    max-height: 400px;
+
+    /*max width ancho maximo
+  min height ancho minimo
+}
+
+.tarjeta a {
+    background-color: blanchedalmond;
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    max-width:130px;
+    max-height: 25px;
+    top: -65px;
+    left: 65%;
+
+}}
+*/
+main {
+  background-color: whitesmoke;
+  color: #363636;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+main h2 {
+  color: rgb(18, 18, 83);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main h3 {
+  color: rgb(18, 18, 83);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main p {
+  display: flex;
+  align-items: center;
+}
+
+article.tarjeta {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+article.tarjeta .tarjeta_img {
+  align-items: stretch;
+  max-width: 100%;
+  max-height: 75%;
 }
 
 /*# sourceMappingURL=styles.css.map */

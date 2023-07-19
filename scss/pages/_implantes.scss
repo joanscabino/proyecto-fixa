@@ -1,0 +1,41 @@
+main {
+    background-color:whitesmoke;
+    color: #363636 ;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+& h2 {
+    color: rgb(18, 18, 83);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+& h3
+{
+    color: rgb(18, 18, 83);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+& p{
+    display: flex;
+    align-items:center;
+    
+
+
+}}
+
+article.tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;    
+
+& .tarjeta_img {
+    align-items: stretch;
+    max-width: 100%;
+    max-height: 75%;
+
+}}
