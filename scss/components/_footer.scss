@@ -5,12 +5,12 @@ footer{
     border: 2px solid white;
 
     
-& img{
-    display: flex;
-    justify-content: center;
-}
 & p{
+    display: flex;
+    flex-direction: column;
+    
     text-align: center;
+    font-family: $ff-lato;
 
 }
 & h3{
@@ -21,6 +21,7 @@ footer{
 & ul li{
     margin-bottom: 0.5rem;
     text-align: center ;
+    color: $color-text;
 
 }
 & map{
@@ -28,12 +29,25 @@ footer{
     justify-content: center;
 }
 }
+
+.primer-item{
+    display: flex;
+    justify-content: space-between;
+    max-width: 35px;
+    max-height: 35px;
+    position: relative;
+    margin-top: 15px;
+    margin: auto;
+    
+   
+
+}
 @media (min-width:1200px)
 {
     footer {
         display: flex;
         justify-content: space-between;
-        align-items: centr;
+        align-items: center;
         border: solid black;    
         max-width: 1300px;
         margin-left: auto;

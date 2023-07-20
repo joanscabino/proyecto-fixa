@@ -1,0 +1,18 @@
+main{
+padding: 20px;
+
+
+
+@media (min-width:1200px)
+{
+
+    main{
+        padding: 20px;
+        
+        & p{
+            display:flex;
+            color: $color-text;
+        }
+
+}
+}}
