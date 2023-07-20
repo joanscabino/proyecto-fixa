@@ -1,14 +1,14 @@
 /*===main===*/
 main {
-    background-color:whitesmoke;
-    color: #363636 ;
+    background-color :$color-background;
+    color: $color-text ;
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
 
 
 & h2 {
-    color: rgb(18, 18, 83);
+    color: $color-secundario;
     display: flex;
     align-items: center;
     justify-content: center;

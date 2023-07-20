@@ -2,6 +2,7 @@
 
 $color-primario:#03484c;
 $color-secundario:#f7f8fc;
+$color-background:#bbdec6;
 $color-text:grey;
 $color-title:black;
 $color-button:transparent;
@@ -38,6 +39,7 @@ h1 {
 h2 {
     font-family: $ff-lato;
     padding: 5px;
+    color: $color-secundario;
 }
 
 h3 {
@@ -47,6 +49,7 @@ h3 {
 
 p{
     font-family: $ff-text;
+    color: $color-text;
 }
 
 li{

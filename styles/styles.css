@@ -28,6 +28,7 @@ h1 {
 h2 {
   font-family: "lato", sans-serif;
   padding: 5px;
+  color: #f7f8fc;
 }
 
 h3 {
@@ -37,6 +38,7 @@ h3 {
 
 p {
   font-family: "Merriweather", sans-serif;
+  color: grey;
 }
 
 li {
@@ -197,14 +199,14 @@ section a {
 
 /*===main===*/
 main {
-  background-color: whitesmoke;
-  color: #363636;
+  background-color: #bbdec6;
+  color: grey;
   max-width: 1300px;
   margin-left: auto;
   margin-right: auto;
 }
 main h2 {
-  color: rgb(18, 18, 83);
+  color: #f7f8fc;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -253,7 +255,7 @@ main form {
 }}
 */
 main {
-  background-color: whitesmoke;
+  background-color: #bbdec6;
   color: #363636;
   max-width: 1300px;
   margin-left: auto;
