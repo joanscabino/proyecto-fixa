@@ -1,27 +1,29 @@
 /*colores del sitio*/
 
-$color-primario:#03484c;
-$color-secundario:#f7f8fc;
-$color-background:#bbdec6;
-$color-text:grey;
-$color-title:black;
-$color-button:transparent;
-$color-buttontext:green;
-$ff-lato:"lato",sans-serif;
-$ff-text: "Merriweather",sans-serif;
+$color-primario: #03484c;
+$color-secundario: #f7f8fc;
+$color-background: #bbdec6;
+$color-text: grey;
+$color-title: black;
+$color-button: transparent;
+$color-buttontext: green;
+$ff-lato: "lato", sans-serif;
+$ff-text: "Merriweather", sans-serif;
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: $color-secundario;
 }
-a{
+
+a {
     text-decoration: none;
-    color:$color-text;
-    
+    color: $color-text;
+
 }
 
 ul,
@@ -47,13 +49,11 @@ h3 {
     color: $color-secundario;
 }
 
-p{
+p {
     font-family: $ff-text;
     color: $color-text;
 }
 
-li{
+li {
     font-family: $ff-lato;
 }
-
-
